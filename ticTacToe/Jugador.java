@@ -5,7 +5,7 @@ public class Jugador {
     private char color;
     private Console console;
 
-    public Jugador(char c) {
+    public Jugador(char color) {
         this.color = color;
         console = new Console();
     }
